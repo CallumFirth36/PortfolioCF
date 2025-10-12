@@ -1,0 +1,23 @@
+
+
+body {
+    min-height: 100vh;
+
+    background: linear-gradient(45deg, rgb(42, 50, 60), rgb(42, 50, 59), rgb(54, 82, 116));
+    background-size: 200%;
+    animation: bg-animation 10s infinite alternate;
+
+    font-family: 'Courier Prime', monospace;
+    color: white;
+}
+    
+
+@keyframes bg-animation {
+    0% {
+    background-position: 0%;
+    }
+    100% {
+    background-position: 100%;
+    }
+
+}
