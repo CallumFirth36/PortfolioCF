@@ -1,0 +1,69 @@
+.title-text {
+    text-align: center;
+}
+
+.title-text h1 {
+    color: rgb(219, 202, 51);
+    font-size: 3em;
+}
+
+.title-text p {
+    font-size: 1.5em;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+   
+}
+
+.box {
+    width: 450px;
+    height: 500px;
+    background-color: rgb(42, 50, 60);
+    box-shadow: 0 0 10px #00ffff;
+    transition: transform 0.4s ease;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box:hover {
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+}
+
+.horizontal-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px; 
+  margin-top: auto;
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-header h2 {
+    color: rgb(219, 202, 51);
+}
+
+.box-date {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  
+}
+
+.box-date ion-icon {
+  font-size: 1.2em;
+}

@@ -2,13 +2,14 @@
 
 body {
     min-height: 100vh;
-
-    background: linear-gradient(45deg, rgb(42, 50, 60), rgb(42, 50, 59), rgb(54, 82, 116));
+    background: linear-gradient(45deg, rgb(42, 50, 60), rgb(42, 50, 59), rgb(54, 82, 116), rgb(73, 109, 153));
     background-size: 200%;
     animation: bg-animation 10s infinite alternate;
-
     font-family: 'Courier Prime', monospace;
     color: white;
+    margin: 0;
+    padding: 0;
+    
 }
     
 
@@ -21,3 +22,49 @@ body {
     }
 
 }
+
+nav {
+    border-bottom: 2px solid #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+    padding: 0 5%;
+    background-color: rgb(42, 50, 60);
+    
+}
+nav h1 {
+    color: rgb(219, 202, 51);;
+}
+
+nav ul {
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(42, 50, 60);
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    font-size: 1.2em;
+    margin: 0 1em; 
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: font-size 0.2s ease;
+    transition: transform 0.4s ease;
+}
+
+
+nav ul li a:hover {
+    background-color: #111111;
+    border-bottom: 2px solid #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+    
+}
+
