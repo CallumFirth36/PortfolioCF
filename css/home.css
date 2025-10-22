@@ -120,6 +120,25 @@ body {
     grid-column: 3 / 4;
     background-color: rgb(42, 50, 60);
     box-shadow: 0 0 10px #00ffff;
+    padding-left: 5%;
+    padding-right: 5%;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.item-5 h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.1em;
+    color: rgb(219, 202, 51);
+}
+.item-5 p {
+    font-size: 1.2em;
+}
+
+.item-5 ul {
+    font-size: 1.1em;
+}
+
+.item-5 a {
+    color: rgb(219, 202, 51);
 }

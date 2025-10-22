@@ -55,6 +55,14 @@ h2 {
     margin-top: 1em;
 }
 
+.item-2 a {
+    color: white;
+}
+
+.item-2 a:hover {
+    color: rgb(219, 202, 51);;
+}
+
 .item-3 {
     grid-row: 1 / 5;
     grid-column: 3 / 4;
@@ -64,5 +72,13 @@ h2 {
     padding-right: 5%; 
     overflow: hidden;
     text-overflow: ellipsis;
+    
+}
+
+.item-3 h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.2%;
+    text-decoration: underline;
+    font-weight: normal;
     
 }
