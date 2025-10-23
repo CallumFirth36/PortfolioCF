@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+   
 }
 
 .container {
@@ -81,4 +81,39 @@ h2 {
     text-decoration: underline;
     font-weight: normal;
     
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-height: none;
+    overflow-y: auto;
+    padding: 1em;
+    gap: 2em;
+  }
+
+  .item-1,
+  .item-2,
+  .item-3 {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  p, ul, a, h3 {
+    font-size: 1em;
+    text-align: center;
+  }
 }

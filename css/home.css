@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    
 }
 
 .container {
@@ -9,7 +9,7 @@ body {
   gap: 2em; 
   padding-top: 2em;
   height: calc(100vh - 60px);
-  overflow: hidden;
+  
   padding: 2em; 
 }
 
@@ -141,4 +141,46 @@ body {
 
 .item-5 a {
     color: rgb(219, 202, 51);
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    max-height: none;
+    overflow-y: auto;
+  }
+
+  .item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h1, h2, h3, p, ul, a {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .CV-download {
+    display: block;
+    margin: 10px auto;
+  }
 }
