@@ -1,7 +1,7 @@
 
 
 body {
-    min-height: 100vh;
+    overflow-y: auto;
     background: linear-gradient(45deg, rgb(42, 50, 60), rgb(42, 50, 59), rgb(54, 82, 116), rgb(73, 109, 153));
     background-size: 200%;
     animation: bg-animation 10s infinite alternate;
@@ -70,16 +70,13 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
 
-    body {
-        overflow-x: hidden;
-        overflow-y: auto;
-    }
-    /* NAVIGATION */
-    nav ul {
-     display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
+  /* NAVIGATION */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   nav ul li {
     float: none;
