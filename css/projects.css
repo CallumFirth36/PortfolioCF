@@ -22,7 +22,8 @@
 
 .box {
     width: 450px;
-    height: 500px;
+    max-height: 500px;
+    overflow-y: auto;
     background-color: rgb(42, 50, 60);
     box-shadow: 0 0 10px #00ffff;
     transition: transform 0.4s ease;
